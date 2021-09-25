@@ -1,6 +1,5 @@
 import com.google.gson.Gson
 import org.junit.Test
-import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.assertThrows
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
@@ -10,7 +9,6 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 import kotlin.test.assertNotNull
 
-@Disabled
 class ClientServiceTest {
 
     private val gson = Gson()
